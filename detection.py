@@ -10,7 +10,7 @@ drive.mount('/content/drive')
 !pip install roboflow
 
 from roboflow import Roboflow
-rf = Roboflow(api_key="ggjAr3Ih1yOZs7dT5Nn8")
+rf = Roboflow(api_key="")
 project = rf.workspace("roboflow-universe-projects").project("license-plate-recognition-rxg4e")
 version = project.version(11)
 dataset = version.download("yolo26")
